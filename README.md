@@ -16,5 +16,5 @@ This Library is ready to be used via jitpack.io. Simply add the following code t
 Now add the gradle dependency in your application's build.gradle:
 
         dependencies {
-            compile 'com.github.JacobSo:Developer:62e74c1834'
+            compile 'com.github.JacobSo:ZuniUtil:-SNAPSHOT'
         }
