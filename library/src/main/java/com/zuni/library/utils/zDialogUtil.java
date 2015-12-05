@@ -15,7 +15,7 @@ import android.widget.LinearLayout.LayoutParams;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 /**
- * Created by Administrator on 2015/12/4.
+ * Created by Jacob So on 2015/12/4.
  */
 public class zDialogUtil {
 

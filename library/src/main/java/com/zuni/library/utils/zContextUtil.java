@@ -26,7 +26,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 /**
- * Created by Administrator on 2015/12/4.
+ * Created by Jacob So on 2015/12/4.
  */
 public class zContextUtil {
     public static final String KILL_APP = "finish";

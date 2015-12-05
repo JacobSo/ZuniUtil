@@ -10,7 +10,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
- * Created by Administrator on 2015/12/4.
+ * Created by Jacob So on 2015/12/4.
  */
 public class zFileUtil {
     public static File getFileCacheDir(Context context, String imageSubDirInSDCard) {
