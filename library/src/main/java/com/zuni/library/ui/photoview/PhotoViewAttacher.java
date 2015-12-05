@@ -1,8 +1,5 @@
 package com.zuni.library.ui.photoview;
 
-/**
- * Created by Administrator on 2015/12/4.
- */
 /*******************************************************************************
  * Copyright 2011, 2012 Chris Banes.
  *
@@ -393,8 +390,8 @@ public class PhotoViewAttacher implements IPhotoView, View.OnTouchListener, Vers
     public final boolean onSingleTapConfirmed(MotionEvent e) {
         ImageView imageView = getImageView();
         if (null != imageView) {
-            mContext.finish();
-            System.out.println(imageView.toString());
+            mContext.finish(); //Jacob So
+         //   System.out.println(imageView.toString());
             if (null != mPhotoTapListener) {
                 final RectF displayRect = getDisplayRect();
 

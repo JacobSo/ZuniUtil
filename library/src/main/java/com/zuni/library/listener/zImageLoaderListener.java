@@ -4,7 +4,7 @@ import android.graphics.Bitmap;
 import android.view.View;
 
 /**
- * Created by Administrator on 2015/12/4.
+ * Created by Jacob So on 2015/12/4.
  */
 public interface zImageLoaderListener {
     void bitmap(Bitmap paramBitmap, View paramView);
