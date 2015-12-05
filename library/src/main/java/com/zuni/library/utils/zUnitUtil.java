@@ -5,7 +5,7 @@ import android.content.res.Resources;
 import android.util.DisplayMetrics;
 
 /**
- * Created by Administrator on 2015/12/4.
+ * Created by Jacob So on 2015/12/4.
  */
 public class zUnitUtil {
     public static int dp2px(Context context, float dipValue) {

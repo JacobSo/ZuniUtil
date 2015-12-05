@@ -131,7 +131,7 @@ public class zImageLoader {
 
     public void displayImage(String url_OR_filepath, View view) {
         if (this.fileCache == null) {
-            Log.e("FastDevelop", "��������������sd��������������");
+            Log.e("FastDevelop", "file cache is null!");
             return;
         }
         view.setTag(url_OR_filepath);
