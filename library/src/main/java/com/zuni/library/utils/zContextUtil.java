@@ -58,7 +58,7 @@ public class zContextUtil {
         String versionName = "";
         try {
             PackageManager packageManager = context.getPackageManager();
-            PackageInfo packageInfo = packageManager.getPackageInfo("com.lsapp.moveoffice", 0);
+            PackageInfo packageInfo = packageManager.getPackageInfo(context.getPackageName(), 0);
             versionName = packageInfo.versionName;
             if (TextUtils.isEmpty(versionName)) {
                 return "";
