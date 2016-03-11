@@ -50,7 +50,7 @@ public class zContextUtil {
     }
 
     /**
-     * 获取版本
+     * 获取版本1
      * @param context
      * @return
      */
